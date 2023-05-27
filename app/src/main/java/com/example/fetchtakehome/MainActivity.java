@@ -69,6 +69,14 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if(jsonDataArray.size() == 0){
+            loadJson = new LoadJson(fileName);
+        }
+    }
+
     //for junit testing
     public ArrayList<Data> getJsonDataArray(){return jsonDataArray;}
     //LoadJson
