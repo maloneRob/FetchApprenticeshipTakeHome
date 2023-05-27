@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FetchTakeHome</string>
+    <string name="showing_content">Showing contents of : </string>
+    <string name="fetching_content">Showing contents of : </string>
+</resources>
